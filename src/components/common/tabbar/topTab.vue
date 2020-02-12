@@ -1,16 +1,19 @@
 <template>
-	<div>
-		<toptabitems></toptabitems>
+	<div id="topTab">
+		<slot></slot>
 	</div>
 </template>
 
 <script>
-	import topTabItems from ''
-	
 	export default {
-		
+		name: 'topTab'
 	}
 </script>
 
 <style>
+	.topTab{
+		position: fixed;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+	}
 </style>
