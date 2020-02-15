@@ -11,9 +11,10 @@
 </script>
 
 <style>
-	.topTab{
-		position: fixed;
+	#topTab{
+		display: flex;
 		flex-wrap: nowrap;
 		justify-content: space-between;
+		width: 500px;
 	}
 </style>
